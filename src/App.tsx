@@ -1,6 +1,7 @@
-import React from 'react';
+import React from "react";
 // import './App.css';
-import FormData from './component/FormData';
+import FormData from "./component/FormData";
+import LoginForm from "./component/LoginForm";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
       <div className="row">
         <div className="col-sm">
           <FormData />
+        </div>
+        <div className="col-sm">
+          <LoginForm />
         </div>
         {/* <div className="col-sm">
           <FormData />
@@ -17,8 +21,7 @@ function App() {
         </div> */}
       </div>
     </div>
-
-  )
+  );
 }
 
-export default App 
+export default App;
